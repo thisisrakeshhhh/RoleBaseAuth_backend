@@ -13,5 +13,3 @@ Yeah, so this is a Node.js backend. It does role-based authentication.
 1. Run `npm install`.
 2. Set up your `.env` file. You'll need `JWT_SECRET`, ImageKit keys (`IMAGEKIT_PRIVATE_KEY`, etc.), and a MongoDB connection string.
 3. Run `npm run dev` to start the server.
-
-Read the code if you need more details. Don't break it.
