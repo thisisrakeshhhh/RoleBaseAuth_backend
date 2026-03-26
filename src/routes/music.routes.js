@@ -18,5 +18,6 @@ router.get("/home", authMiddleware.authUser, musicController.getAllMusic)
 
 router.get("/album", authMiddleware.authUser, musicController.getAllAlbum)
 
+router.get("/album/:albumId", authMiddleware.authUser, musicController.getAlbumById)
 
 module.exports = router;
