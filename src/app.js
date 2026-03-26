@@ -15,5 +15,9 @@ app.use(cookieParser());
 app.use("/api/auth", authRoutes); //pre-fixs before the routess
 app.use("/api/music", musicRoutes);
 
+app.get("/", (req, res) => {
+    res.send("API is running...");
+});
+
 
 module.exports = app;
